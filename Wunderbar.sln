@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunderbar.Presentation", "Wunderbar.Presentation\Wunderbar.Presentation.csproj", "{32A79E33-0096-488B-AD29-55B277A3F051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunderbar.Domain", "Wunderbar.Domain\Wunderbar.Domain.csproj", "{28F3A64B-84E0-40D2-B9A4-2E07CD0FBCDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunderbar.Application", "Wunderbar.Application\Wunderbar.Application.csproj", "{7321C72A-FA7A-46F8-8EEC-4FD160B3CB13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunderbar.Infrastructure", "Wunderbar.Infrastructure\Wunderbar.Infrastructure.csproj", "{2C647317-E6E4-4790-970C-8521A935A5A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A79E33-0096-488B-AD29-55B277A3F051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A79E33-0096-488B-AD29-55B277A3F051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A79E33-0096-488B-AD29-55B277A3F051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A79E33-0096-488B-AD29-55B277A3F051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F3A64B-84E0-40D2-B9A4-2E07CD0FBCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F3A64B-84E0-40D2-B9A4-2E07CD0FBCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F3A64B-84E0-40D2-B9A4-2E07CD0FBCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F3A64B-84E0-40D2-B9A4-2E07CD0FBCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7321C72A-FA7A-46F8-8EEC-4FD160B3CB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7321C72A-FA7A-46F8-8EEC-4FD160B3CB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7321C72A-FA7A-46F8-8EEC-4FD160B3CB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7321C72A-FA7A-46F8-8EEC-4FD160B3CB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C647317-E6E4-4790-970C-8521A935A5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C647317-E6E4-4790-970C-8521A935A5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C647317-E6E4-4790-970C-8521A935A5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C647317-E6E4-4790-970C-8521A935A5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
