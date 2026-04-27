@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Auslaender\" />
+      <Folder Include="Repositories\" />
+      <Folder Include="RepositoryImplementations\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Wunderbar.Domain\Wunderbar.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.7" />
+    </ItemGroup>
+
+</Project>
