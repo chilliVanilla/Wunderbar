@@ -1,5 +1,21 @@
 
+using Microsoft.EntityFrameworkCore;
+using Wunderbar.Application.Interfaces;
+using Wunderbar.Infrastructure.Data;
+using Wunderbar.Application.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+Console.WriteLine("Hello World!!!!!!!!!!!!!!!!!!!!");
+
+builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ApplicationDbContext>
+    (options => 
+        options.UseSqlServer(builder.Configuration.GetConnectionString("MainDb"))
+        );
+
+builder.Services.AddScoped<ICustomerService, CustomerService>();
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -14,6 +30,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
 
 app.Run();
 
