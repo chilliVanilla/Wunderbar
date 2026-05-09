@@ -4,7 +4,7 @@ namespace Wunderbar.Application.Interfaces;
 
 public interface IProductService
 {
-    public bool AddNewProduct(ProductDescriptionDto productDto);
+    public void AddNewProduct(ProductDescriptionDto productDto);
     public void GetProductById(int id);
     public void GetProductByName(string name);
     public void GetAllProductsByName(string name);
