@@ -13,4 +13,5 @@ public class Product
     public bool InStock { get; set; }
     public string? ProductDescription { get; set; }
     public int StockCount { get; set; }
+    public DateTime? DateLastRequested { get; set; }
 }

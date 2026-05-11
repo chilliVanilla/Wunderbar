@@ -15,9 +15,11 @@ builder.Services.AddDbContext<ApplicationDbContext>
         options.UseSqlServer(builder.Configuration.GetConnectionString("MainDb"))
         );
 
+
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSingleton<IAutoCompleteService, AutoCompleteService>();
+builder.Services.AddHostedService<TrieLoadingService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

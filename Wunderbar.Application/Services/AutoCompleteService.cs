@@ -7,9 +7,9 @@ public class AutoCompleteService : IAutoCompleteService
 {
     private readonly TrieNode _root;
 
-    public AutoCompleteService(TrieNode root)
+    public AutoCompleteService()
     {
-        _root = root;
+        _root = new TrieNode();
     }
     
 
